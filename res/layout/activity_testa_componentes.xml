@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aqui aparecerá o q vc digitou e clicou no botão" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> Digite um texto"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/campoNome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/radioopcoes"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/opcao1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Fabio" />
+<!-- 
+        <RadioButton
+            android:id="@+id/opcao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gilberto" />
+ -->
+    </RadioGroup>
+	
+	
+    <Spinner
+        android:id="@+id/opcoesspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Copiar Texto" />
+
+    <TextView
+        android:id="@+id/textViewlista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="item selecionado da lista" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="fill_parent"
+        android:layout_height="116dp" >
+    </ListView>
+    	
+</LinearLayout>
